@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_menu_nav_all"
+            android:title="全部" />
+        <item
+            android:id="@+id/nav_unGrouped"
+            android:icon="@drawable/ic_menu_nav_ungrouped"
+            android:title="未分组" />
+        <item
+            android:id="@+id/nav_life"
+            android:icon="@drawable/ic_menu_nav_life"
+            android:title="生活" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/ic_menu_nav_work"
+            android:title="工作" />
+        <item
+            android:id="@+id/nav_recycle"
+            android:icon="@drawable/ic_menu_nav_recycle"
+            android:title="回收站" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

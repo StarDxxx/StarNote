@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/show_menu_delete"
+        android:orderInCategory="100"
+        android:title="@string/menu_delete"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/show_menu_wordSize"
+        android:orderInCategory="100"
+        android:title="@string/menu_wordSize"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/show_menu_share"
+        android:orderInCategory="100"
+        android:title="@string/menu_share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/show_menu_remind"
+        android:orderInCategory="100"
+        android:title="@string/menu_remind"
+        app:showAsAction="never" />
+
+</menu>
